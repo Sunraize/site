@@ -8,7 +8,13 @@
     content="Создайте успешный личный бренд с экспертными стратегиями и профессиональным подходом.">
   <meta name="keywords" content="личный бренд, продвижение, маркетинг, экспертность, успех">
   <meta name="author" content="Ваше Имя">
-  <title>Личный бренд - Ваше Имя</title>
+  <meta name="description" content="Создайте успешный личный бренд с экспертными стратегиями и профессиональным подходом. Развивайте свою экспертность, привлекайте аудиторию и добивайтесь успеха!">
+<meta property="og:title" content="Личный бренд – Стратегии успеха и продвижения">
+<meta property="og:description" content="Как эффективно продвигать личный бренд? Советы по экспертности, маркетингу и привлечению аудитории.">
+<meta property="og:url" content="https://example.com">
+<meta property="og:image" content="https://example.com/image.jpg">
+<meta name="twitter:card" content="summary_large_image">
+  <title>Личный бренд - Главная</title>
   <link rel="stylesheet" href="styles.css">
   <style>
     body {
@@ -26,6 +32,32 @@
       text-align: center;
     }
 
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      background: #444;
+      margin: 0;
+    }
+
+    nav ul li {
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      text-decoration: none;
+      color: white;
+      font-size: 18px;
+      padding: 10px;
+      display: inline-block;
+    }
+
+    nav ul li a:hover {
+      background: #555;
+      border-radius: 5px;
+    }
+
     section {
       padding: 20px;
       margin: 20px auto;
@@ -33,43 +65,7 @@
       background: white;
       border-radius: 10px;
       box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    h2 {
-      color: #444;
-    }
-
-    img {
-      max-width: 100%;
-      display: block;
-      margin: 10px auto;
-      border-radius: 5px;
-    }
-
-    form {
-      display: flex;
-      flex-direction: column;
-    }
-
-    input,
-    textarea {
-      margin-bottom: 10px;
-      padding: 10px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
-
-    button {
-      background: #333;
-      color: white;
-      padding: 10px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
-
-    button:hover {
-      background: #555;
+      text-align: center;
     }
 
     footer {
@@ -77,6 +73,49 @@
       padding: 20px;
       background: #222;
       color: white;
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+
+    .social-share {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+      margin-top: 10px;
+    }
+
+    .social-share .btn {
+      text-decoration: none;
+      padding: 10px 15px;
+      border-radius: 5px;
+      color: white;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .facebook {
+      background: #1877F2;
+    }
+
+    .twitter {
+      background: #1DA1F2;
+    }
+
+    .telegram {
+      background: #0088cc;
+    }
+
+    .vk {
+      background: #4c75a3;
+    }
+
+    .whatsapp {
+      background: #25D366;
+    }
+
+    .social-share .btn:hover {
+      opacity: 0.8;
     }
   </style>
 </head>
@@ -84,48 +123,42 @@
 <body>
   <header>
     <h1>Создайте успешный личный бренд</h1>
-    <p>Развивайте свою экспертность, привлекайте аудиторию и добивайтесь успеха.</p>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="about.html">Обо мне</a></li>
+        <li><a href="services.html">Услуги</a></li>
+        <li><a href="portfolio.html">Портфолио</a></li>
+        <li><a href="contact.html">Контакты</a></li>
+        <li><a href="sitemap.html">Карта сайта</a></li>
+      </ul>
+    </nav>
   </header>
 
-  <section id="about">
-    <h2>Обо мне</h2>
-    <img src="https://avatars.mds.yandex.net/i?id=549ed7bef29f8aa39b548c072eb57f0b4e18827b-4341598-images-thumbs&n=13"
-      alt="Фото автора сайта">
-    <p>Привет! Я помогаю людям выстраивать их личный бренд, создавая стратегию продвижения и
-      развитие профессиональной репутации.</p>
+  <section>
+    <h2>Добро пожаловать!</h2>
+    <p>Развивайте свою экспертность, привлекайте аудиторию и добивайтесь успеха.</p>
   </section>
-
-  <section id="services">
-    <h2>Услуги</h2>
-    <ul>
-      <li>Консультации по развитию личного бренда</li>
-      <li>Создание контент-стратегии</li>
-      <li>Оптимизация профилей в соцсетях</li>
-      <li>Построение экспертного позиционирования</li>
-    </ul>
+  <section>
+    <h2>Полезные ресурсы</h2>
+    <p>Рекомендуем прочитать статью о <a href="https://example.com/branding-tips" target="_blank">эффективном
+        брендинге</a>.</p>
+    <p>Посмотрите <a href="https://example.com/success-stories" target="_blank">истории успеха</a> наших клиентов.</p>
   </section>
-
-  <section id="portfolio">
-    <h2>Мои работы</h2>
-    <img src="https://cdn-main.infourok.ru/is04/06b0/00091ae7-b55b25e8.jpg" alt="Пример работы по продвижению бренда">
-    <p>Успешные кейсы моих клиентов, достигших узнаваемости и роста аудитории.</p>
-  </section>
-
-  <section id="contact">
-    <h2>Свяжитесь со мной</h2>
-    <p>Хотите развивать свой личный бренд? Напишите мне!</p>
-    <form action="#" method="post">
-      <label for="name">Ваше имя:</label>
-      <input type="text" id="name" name="name" required>
-
-      <label for="email">Ваш email:</label>
-      <input type="email" id="email" name="email" required>
-
-      <label for="message">Сообщение:</label>
-      <textarea id="message" name="message" required></textarea>
-
-      <button type="submit">Отправить</button>
-    </form>
+  <section>
+    <h2>Поделитесь этой страницей</h2>
+    <div class="social-share">
+      <a href="https://www.facebook.com/sharer/sharer.php?u=file:///D:/ЛАБЫ/Оптимизация%20сайтов/sIte/index.html"
+        target="_blank" class="btn facebook">Facebook</a>
+      <a href="https://twitter.com/intent/tweet?url=file:///D:/ЛАБЫ/Оптимизация%20сайтов/sIte/index.html&text=Интересная статья!"
+        target="_blank" class="btn twitter">Twitter</a>
+      <a href="https://t.me/share/url?url=https://file:///D:/ЛАБЫ/Оптимизация%20сайтов/sIte/index.html&text=Интересная статья!"
+        target="_blank" class="btn telegram">Telegram</a>
+      <a href="https://vk.com/share.php?url=https://file:///D:/ЛАБЫ/Оптимизация%20сайтов/sIte/index.html"
+        target="_blank" class="btn vk">ВКонтакте</a>
+      <a href="https://wa.me/?text=Интересная статья!%20file:///D:/ЛАБЫ/Оптимизация%20сайтов/sIte/index.html"
+        target="_blank" class="btn whatsapp">WhatsApp</a>
+    </div>
   </section>
 
   <footer>
